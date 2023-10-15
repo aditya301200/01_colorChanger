@@ -2,10 +2,10 @@ const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
 buttons.forEach((button) => {
-    console.log(button);
+    // console.log(button);
     button.addEventListener('click', (event) => {
-        console.log(event);
-        console.log(event.target);
+        // console.log(event);
+        // console.log(event.target);
         if(event.target.id === 'grey'){
             body.style.backgroundColor = event.target.id;
         } 
